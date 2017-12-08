@@ -10,4 +10,4 @@ const productSchema = new mongoose.Schema({
 });
 
 // Return model
-module.expots = restful.model('Products', productSchema);
+module.exports = restful.model('Products', productSchema);
